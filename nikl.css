@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(203, 191, 168);
+    
+    justify-content: center;
+}
+#first{
+    height: 1500px;
+    width: 600px;
+    background-color: rgba(240, 238, 235, 0.681);
+    border-radius: 20px;
+    position: absolute;
+    top:80px;
+    left: 460px;
+}
+#second{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#photo{
+    background-color: rgb(167, 112, 40);
+    height: 350px;
+    border: solid rgb(178, 178, 206) 2px;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+    
+    
+    
+}
+#second h1{
+    position: absolute;
+    left: 55px;
+    top: 400px;
+    
+}
+#second p{
+    position: absolute;
+    top: 450px;
+    text-align: center;
+    
+}
+#second h1{
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+
+}
+#second h1:hover{
+    color: rgb(221, 125, 28);
+}
+    
+#third{
+    position: absolute;
+    top: 550px;
+    left:55px;
+    width: 510px;
+    height: 150px;
+    background-color: rgb(222, 182, 143);
+     border-radius: 15px ;
+     font-size: large;
+}
+#third h3{
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+
+}
+#third h3:hover { 
+    color: rgb( 222,125,28);
+    font-size: 1.4rem;
+}
+
+#four{
+    position: absolute;
+    top: 700px;
+    left: 55px;
+    font-size: large;
+}
+#five{
+    position:absolute;
+    top:880px;
+    left: 40px;
+    font-size: large;
+}
+#six{
+    position:absolute;
+    top: 1100px;
+    left: 40px;
+    font-size: large;
+}
+#non{
+    position: absolute;
+    top: 1350px;
+ left: 200px;
+}
+
